@@ -1,93 +1,59 @@
-AI-Powered Learning Management System (LMS)
+# AI-Powered Learning Management System (LMS)
 
-An advanced MERN Stack-based Learning Management System integrated with AI-powered smart search, Google authentication, secure payments, and student/instructor dashboards. Designed for modern EdTech platforms, offering a seamless and engaging learning experience.
+An advanced **AI-powered Learning Management System** built using the **MERN stack**.  
+This platform enables seamless online learning with AI-driven smart search, secure authentication, integrated payments, and dedicated dashboards for students and instructors.
 
-🚀 Features
+---
 
-AI-Powered Smart Search using Gemini/OpenAI API for intelligent course discovery.
+## 🚀 Features
 
-Role-Based Dashboards for Students and Instructors.
+- **🧠 AI-Powered Smart Search** – Find courses instantly with Gemini/OpenAI integration.
+- **🔐 Google Authentication** – Secure login with OAuth 2.0.
+- **💳 Razorpay Payment Gateway** – Smooth and secure payment processing.
+- **📚 Role-Based Dashboards** – Separate views for Students and Instructors.
+- **⚛️ State Management** – Redux Toolkit for scalable state handling.
+- **📱 Fully Responsive UI** – Optimized for all devices.
 
-Google OAuth 2.0 Authentication for secure sign-ins.
+---
 
-Razorpay Payment Gateway for smooth and secure transactions.
+## 🛠 Tech Stack
 
-Responsive UI built with Tailwind CSS.
+- **Frontend:** React.js, Tailwind CSS, Redux Toolkit  
+- **Backend:** Node.js, Express.js, MongoDB  
+- **Auth:** Google OAuth 2.0  
+- **Payments:** Razorpay  
+- **AI Integration:** Gemini/OpenAI API  
 
-State Management using Redux Toolkit.
+---
 
-Course Creation & Enrollment with real-time updates.
+## 📦 Installation & Setup
 
-🛠 Tech Stack
-
-Frontend: React.js, Tailwind CSS, Redux Toolkit
-
-Backend: Node.js, Express.js, MongoDB
-
-Authentication: Google OAuth 2.0
-
-Payments: Razorpay
-
-AI Integration: Gemini / OpenAI API
-
-📦 Installation
-1️⃣ Clone the repository
-git clone https://github.com/yourusername/ai-powered-lms.git
-cd ai-powered-lms
-
-2️⃣ Install dependencies
-Backend
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/yourusername/ai-powered-lms.git
+   cd ai-powered-lms
+2 **Install backend dependencies**
 cd backend
 npm install
 
-Frontend
-cd frontend
+# Install frontend dependencies
+cd ../frontend
 npm install
 
-3️⃣ Set up environment variables
-
-Create a .env file in both frontend and backend directories with the following:
-
-MONGO_URI=your_mongodb_uri
+3. **Set up environment variables**
+MONGO_URI=your_mongodb_connection_string
 GOOGLE_CLIENT_ID=your_google_client_id
 GOOGLE_CLIENT_SECRET=your_google_client_secret
 RAZORPAY_KEY_ID=your_razorpay_key_id
 RAZORPAY_KEY_SECRET=your_razorpay_key_secret
-OPENAI_API_KEY=your_openai_api_key
-PORT=5000
+GEMINI_API_KEY=your_gemini_api_key
 
-4️⃣ Run the application
-Backend
+4. **Run the application**
+# Run backend
 cd backend
 npm start
 
-Frontend
-cd frontend
+# Run frontend
+cd ../frontend
 npm start
 
-📸 Screenshots
-
-(Add screenshots of your dashboards, AI search, payment page, etc.)
-
-📚 Usage
-
-Students can search courses using AI-powered recommendations.
-
-Instructors can create, update, and manage courses.
-
-Payments are processed securely via Razorpay.
-
-Google OAuth ensures quick and secure login.
-
-🎯 Roadmap
-
- Add AI-based personalized course recommendations
-
- Enable video conferencing integration
-
- Implement certificate generation after course completion
-
-🤝 Contributing
-
-Contributions, issues, and feature requests are welcome!
-Feel free to fork and submit pull requests.
